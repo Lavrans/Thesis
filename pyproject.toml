@@ -1,0 +1,31 @@
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+select = ['E', 'F', 'W', 'I']
+ignore = [
+    'Q000',
+    'D100',
+    'D101',
+    'D102',
+    'D103',
+    'D205',
+    'D212',
+    'C901',
+    'TRY003',
+    'EM102',
+    'T201',
+    'ANN201',
+    'E501',
+    'E741',
+    'E721',
+    'W191',
+]
+exclude = ["migrations", "nvdbapi"]
+unfixable = ['F841']
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.ruff.isort]
+force-single-line = true
+force-to-top = []
