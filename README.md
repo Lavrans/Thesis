@@ -20,6 +20,10 @@ You probably need to set up the virtual environment and install the necessary de
 pip install -r requirements.txt
 ```
 
+### Cleaning the data
+
+A good starting point is `code/data.ipynb`. This notebook walks you through the preprocessing of the dataset used in the project.
+
 ## Formatting/Linting
 
 This project uses ruff and mypy (with pydantic) for formatting and linting. Their configs can be found in pyproject.toml and mypy.ini respectively.
