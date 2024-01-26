@@ -18,7 +18,7 @@ freeze:
 	$(VENV)/bin/pip freeze > $(REQ)
 
 mypy: 
-	$(VENV)/bin/mypy .
+	$(VENV)/bin/mypy ./code/
 
 ruff-lint: 
 	$(VENV)/bin/ruff check
