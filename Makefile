@@ -7,7 +7,7 @@ install: venv
 	$(VENV)/bin/pip install -r $(REQ)
 
 venv:
-	python3 -m venv $(VENV)
+	python3.10 -m venv $(VENV)
 
 remove_venv:
 	rm -r $(VENV)
