@@ -34,7 +34,7 @@ ndindex==1.7
 nest-asyncio==1.5.8
 networkx==3.2.1
 numexpr==2.8.7
-numpy==1.26.1
+numpy==1.26.4
 packaging==23.2
 pandas==2.1.1
 pandas-stubs==2.1.4.231227

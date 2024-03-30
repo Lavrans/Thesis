@@ -212,4 +212,10 @@ pyrightconfig.json
 spx_data/
 *.h5
 
+yield_data/
 
+*.pt
+
+wandb/
+
+*.csv

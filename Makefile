@@ -7,7 +7,7 @@ install: venv
 	$(VENV)/bin/pip install -r $(REQ)
 
 venv:
-	python3 -m venv $(VENV)
+	python3.10 -m venv $(VENV)
 
 remove_venv:
 	rm -r $(VENV)
@@ -18,7 +18,7 @@ freeze:
 	$(VENV)/bin/pip freeze > $(REQ)
 
 mypy: 
-	$(VENV)/bin/mypy .
+	$(VENV)/bin/mypy ./code/
 
 ruff-lint: 
 	$(VENV)/bin/ruff check
